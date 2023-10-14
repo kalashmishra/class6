@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    html , body{
+        width: 100%;
+        height: 100%;
+    }
+    #main{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        
+        
+        
+    
+    }
+    #left{
+        width: 50%;
+        height: 100%;
+        background-color: rgb(14, 14, 14);
+    }
+    #right{
+        width: 50%;
+        height: 100%;
+        background-color: rgb(20, 20, 20);
+    }
+    img{
+        height:80% ;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        z-index: 999;
+    }
+    .text{
+        color: rgba(237, 232, 232, 0.867);
+        font-family: "Gilroy";
+    }
+    #text1{
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        font-size: 30px;
+        letter-spacing: 3px;
+        font-weight: 200;
+    }
+    #text2{ 
+        width: 350px;
+        position: absolute;
+        top: 25%;
+        right: 15%;
+        text-align: inherit;
+        font-size: smaller;
+        font-weight: 100;
+        
+    }
+    
+    #text2 p{
+        margin-top: 10px;
+    }
+    
+    #text3{
+        width: 300px;
+        position: absolute;
+        top: 15%;
+        left: 49%;
+        text-align: inherit;
+        font-weight: 100;
+        font-size: smaller;
+    }
+        
+        #text3 p{
+            margin-top: 10px;
+        }
+        #text4{
+            position: absolute;
+            top: -6%;
+             left: 49%;
+            font-size: 70px;
+            font-family: "Gilroy";
+            letter-spacing: 5px;
+            font-weight: 600;
+            color: rgb(14, 14, 14);
+        }
+        #overlay1{
+            width: 220px;
+            height: 150px;
+            position: absolute;
+            top: 60%;
+            left: 0%;
+            background-color: rgb(20, 20, 20);
+    
+            
+        
+        }
+        #overlay2{
+            width: 330px;
+            height: 120px;
+            position: absolute;
+            top: 60%;
+            right:0%;
+        
+            background-color: rgb(14, 14, 14);
+            
+        
+        }
+        
+        
+    
+        
+        
+    
+    
